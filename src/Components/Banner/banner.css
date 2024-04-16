@@ -1,0 +1,113 @@
+.banner {
+    position: relative;
+    background-image: url('../../Assets/hero_desk.jpeg');
+    background-position: center bottom 114%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 9.7rem;
+    text-transform: uppercase;
+}
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+    z-index: 1;
+    pointer-events: none; /* Ensure the overlay doesn't block interactions */
+}
+
+
+
+.banner-heading {
+    color: white;
+}
+
+.heading-container {
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: slideRight 3s forwards;
+    letter-spacing: -3.48px;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 3.5rem;
+    font-size: 2.1rem;
+    letter-spacing: 1.36px;
+    font-weight: 700;
+    margin-left: 9px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 6.8rem;
+    line-height: 0.9;
+}
+
+.icon-container {
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+    transition: opacity 1.3s ease;
+    margin-left: -16.4rem;
+    margin-top: 30.5rem;
+}
+
+.icon-container .bi-hexagon-fill {
+    display: none;
+    opacity: 0;
+    transition: opacity 1.3s ease;
+}
+
+.icon-container:hover .bi-hexagon {
+    display: none;
+}
+
+.icon-container:hover .bi-hexagon-fill {
+    display: block;
+    opacity: 1;    
+}
+
+.hexagon {
+    font-size: 63px;
+    color: #ffffff;
+}
+
+.arrow {
+    font-size: 21px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.hexagon:hover {
+    color: #ffffff;
+    
+}
+
+.arrow:hover {
+    color: black;
+}
+
+.hexagon:hover+.arrow {
+    color: #000000;
+}
