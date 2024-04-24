@@ -8,6 +8,7 @@
     padding-left: 9.7rem;
     text-transform: uppercase;
 }
+
 .banner::after {
     content: '';
     position: absolute;
@@ -17,7 +18,8 @@
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
     z-index: 1;
-    pointer-events: none; /* Ensure the overlay doesn't block interactions */
+    pointer-events: none;
+    /* Ensure the overlay doesn't block interactions */
 }
 
 
@@ -45,7 +47,7 @@
     }
 }
 
-h2 {
+.banner-heading .sub-heading {
     margin: 0;
     margin-bottom: 3.5rem;
     font-size: 2.1rem;
@@ -54,7 +56,7 @@ h2 {
     margin-left: 9px;
 }
 
-h1 {
+.heading-container .main-heading {
     margin: 0;
     font-size: 6.8rem;
     line-height: 0.9;
@@ -81,7 +83,7 @@ h1 {
 
 .icon-container:hover .bi-hexagon-fill {
     display: block;
-    opacity: 1;    
+    opacity: 1;
 }
 
 .hexagon {
@@ -101,7 +103,7 @@ h1 {
 
 .hexagon:hover {
     color: #ffffff;
-    
+
 }
 
 .arrow:hover {
