@@ -1,0 +1,218 @@
+.model-container {
+  max-width: unset;
+  width: auto;
+  height: 100%;
+  position: relative;
+}
+
+.model-container .image-container {
+  overflow: hidden;
+}
+
+
+.text-container {
+  position: absolute;
+  top: 9rem;
+  left: 10rem;
+
+}
+
+.model-container .text-container .mini-heading {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  height: 2.5rem;
+}
+
+.text-container .sub-text {
+  text-transform: uppercase;
+  margin-top: 0.9rem;
+  font-size: 4.6rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: -0.228rem;
+  text-align: left;
+  position: relative;
+}
+
+.text-container .sub1-animation {
+  position: relative;
+  animation: slideFromLeftSub1 1s forwards;
+  opacity: 0; /* Initially hide the text */
+}
+
+.text-container .sub2-animation {
+  position: relative;
+  animation: slideFromLeftSub2 2s forwards;
+  opacity: 0; /* Initially hide the text */
+}
+
+@keyframes slideFromLeftSub1 {
+  from {
+    left: -100%; /* Start position */
+    opacity: 0;
+  }
+  to {
+    left: 0; /* End position */
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromLeftSub2 {
+  from {
+    left: -100%; /* Start position */
+    opacity: 0;
+  }
+  to {
+    left: 0; /* End position */
+    opacity: 1;
+  }
+}
+
+
+
+.text-container .explore-icon {
+  display: inline-block;
+  position: relative;
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 1.3s ease, left 4s ease; /* Transition opacity and left position */
+  background: transparent;
+  border: none;
+  padding-right: 16rem; /* Initial position */
+  animation: moveRight 2s forwards; /* Animate movement */
+}
+
+/* Define keyframes for the animation */
+@keyframes moveRight {
+  from {
+    left: 10rem; /* Start position */
+    opacity: 0; /* Start opacity */
+  }
+  to {
+    left: 0; /* End position (adjust 16rem for padding-right) */
+    opacity: 1; /* End opacity */
+  }
+}
+
+
+.explore-icon .hexagon-icon {
+  /* border: 0.1px solid #000000; */
+  border-radius: 5px;
+}
+
+.explore-icon .bi-hexagon-fill {
+  display: none;
+  opacity: 0;
+  transition: opacity 1.3s ease;
+}
+
+.explore-icon:hover .bi-hexagon {
+  display: none;
+}
+
+.explore-icon:hover .arrow-icon {
+  color: white;
+}
+
+.explore-icon:hover .bi-hexagon-fill {
+  display: block;
+  opacity: 1;
+}
+
+.hexagon-icon {
+  font-size: 60px;
+  color: #000000;
+}
+
+.arrow-icon {
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.hexagon-icon:hover {
+  color: #000000;
+}
+
+.arrow-icon:hover {
+  color: rgb(255, 255, 255);
+}
+
+.hexagon-icon:hover+.arrow-icon {
+  color: #ffffff;
+}
+
+
+.model-container .slide-container {
+  display: flex;
+  margin-top: 1.4rem;
+  padding-right: 4rem;
+  font-weight: 200;
+  font-size: 18px;
+  align-items: center;
+}
+
+.model-container .slide-container .slide-div {
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.model-container .slide-container .slide-div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.model-container .slide-container .slide-div::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+.model-container .slide-container .slide-div:hover::after {
+  width: 100%;
+}
+
+.model-container .slide-container .slide-div button {
+  border: none;
+  background-color: transparent;
+}
+
+.model-container .slide-container .active-line1::after,
+.model-container .slide-container .active-line2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+.model-container .slide-container .active-slide-model {
+  border: 1px solid black;
+  padding-right: 2px;
+  padding-left: 2px;
+  border-radius: 5px;
+  background-color: #878787b3 !important;
+}

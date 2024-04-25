@@ -28,6 +28,7 @@ function Slider() {
             setDescriptionChanged(false);
         }
     }, [descriptionChanged]);
+    
 
     const typedRef = useRef(null);
 
@@ -152,7 +153,6 @@ function Slider() {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }

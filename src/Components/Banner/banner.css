@@ -1,3 +1,10 @@
+.banner-container {
+    max-width: unset;
+    width: auto;
+    height: 100%;
+
+  }
+
 .banner {
     position: relative;
     background-image: url('../../Assets/hero_desk.jpeg');

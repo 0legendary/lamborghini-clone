@@ -1,0 +1,7 @@
+.banner-container-main, .slider-container-main, .model-container-main {
+    width: 100%;
+    max-width: unset;
+    box-sizing: border-box;
+    height: auto;
+  }
+
