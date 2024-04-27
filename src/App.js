@@ -8,6 +8,7 @@ import Model from "./Components/Model/Model";
 import './app.css'
 import Location from './Components/Location/Location';
 import News from './Components/News/News';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div className="news-container-main">
         <News/>
+      </div>
+      <div className="footer-container-main">
+        <Footer/>
       </div>
     </div>
   );

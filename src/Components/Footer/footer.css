@@ -1,0 +1,90 @@
+.footer-container {
+    background-color: #181818;
+    color: white;
+    position: relative;
+}
+
+.footer-container .footer {
+    padding: 4rem 11rem 4rem 11rem;
+}
+
+.footer .footer-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-menu .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.footer .footer-menu .menu li {
+    list-style: none;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer .footer-menu .menu li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: width 0.5s ease;
+}
+
+.footer .footer-menu .menu li:hover::after {
+    width: 90%;
+}
+
+.footer .footer-menu .social-icons i {
+    padding-right: 1rem;
+    font-size: large;
+}
+
+.footer .des1 {
+    margin-top: 1.5rem;
+    color: white;
+    font-size: 0.86rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    position: relative;
+    margin-left: 5px;
+}
+
+.footer .des1 p {
+    margin-left: 15px;
+}
+
+.footer .des1::before {
+    content: '*';
+    padding-right: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: inherit;
+    /* Inherit line height from parent */
+}
+
+
+.footer .copyright-details {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.footer .copyright-details .text {
+    padding-left: 0.2rem;
+    padding-right: 0.3rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}

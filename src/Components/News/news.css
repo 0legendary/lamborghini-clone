@@ -2,18 +2,12 @@
     display: flex;
     justify-content: center;
     padding: 7rem 16.8%;
-    /* Padding on left and right sides */
 }
 
 .news-content {
     width: 100%;
-    /* Occupy full width of news-container */
 }
 
-/* .sub-heading {
-    align-items: center;
-    text-align: left;
-} */
 
 .news-content .sub-heading h3 {
     font-size: 2.1rem;

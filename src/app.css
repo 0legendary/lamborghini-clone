@@ -2,7 +2,8 @@
 .slider-container-main, 
 .model-container-main, 
 .location-container-main,
-.news-container-main
+.news-container-main,
+.footer-container-main
 {
     width: 100%;
     max-width: unset;

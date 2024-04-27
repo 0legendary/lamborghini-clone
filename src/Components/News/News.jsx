@@ -6,8 +6,8 @@ import imola from '../../Assets/sc63_imola_cover.png'
 
 function News() {
     const Models = [
-        { img: urus, date: '24 April 224', tag: 'Urus SE', des: 'Lamborgini Urus SE: The first plug-in hybrid super suv' },
-        { img: imola, date: '24 April 224', tag: 'Motorsport', des: 'the debut of Lamborgini sc63 at imola' }
+        { img: urus, date: '24 April 2024', tag: 'Urus SE', des: 'Lamborgini Urus SE: The first plug-in hybrid super suv' },
+        { img: imola, date: '24 April 2024', tag: 'Motorsport', des: 'the debut of Lamborgini sc63 at imola' }
     ]
     return (
         <div className='news-container'>
