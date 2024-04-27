@@ -7,6 +7,8 @@ import Slider from "./Components/Slider/Slider";
 import Model from "./Components/Model/Model";
 import './app.css'
 import Location from './Components/Location/Location';
+import News from './Components/News/News';
+
 function App() {
   return (
     <div>
@@ -22,6 +24,9 @@ function App() {
       </div>
       <div className="location-container-main">
         <Location/>
+      </div>
+      <div className="news-container-main">
+        <News/>
       </div>
     </div>
   );
