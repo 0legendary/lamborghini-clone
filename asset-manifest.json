@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.accedd79.css",
+    "main.js": "./static/js/main.beb648cc.js",
+    "static/media/hero_desk.jpeg": "./static/media/hero_desk.b9e4ef2e007c519dd7a2.jpeg",
+    "static/media/sc63_imola_cover.png": "./static/media/sc63_imola_cover.e66c68f645b2902b2f06.png",
+    "static/media/urus_s_family_chooser.jpg": "./static/media/urus_s_family_chooser.cd9cad7cafed8f7be74f.jpg",
+    "static/media/533702.jpg": "./static/media/533702.67c1027ae30de75876d0.jpg",
+    "static/media/revuelto.jpg": "./static/media/revuelto.c0efae4539b1bc621c14.jpg",
+    "static/media/urus_se_cover.jpg": "./static/media/urus_se_cover.4fca872bf9e99a4d8bd4.jpg",
+    "static/media/family_chooser_sterrato.jpg": "./static/media/family_chooser_sterrato.8553144a70e07dfd8243.jpg",
+    "static/media/bootstrap-icons.woff?": "./static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "./static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/cover.png": "./static/media/cover.888173b387abda688184.png",
+    "static/media/revuelto_home.jpg": "./static/media/revuelto_home.b5f7517892b73989cf62.jpg",
+    "static/media/urus_s_home.jpg": "./static/media/urus_s_home.63ca91576acc06036171.jpg",
+    "static/media/logo_header_01.svg": "./static/media/logo_header_01.27eb76e2c982c9e93c39e65e990beab0.svg",
+    "index.html": "./index.html",
+    "main.accedd79.css.map": "./static/css/main.accedd79.css.map",
+    "main.beb648cc.js.map": "./static/js/main.beb648cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.accedd79.css",
+    "static/js/main.beb648cc.js"
+  ]
+}
