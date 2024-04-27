@@ -6,6 +6,7 @@ import Banner from "./Components/Banner/Banner";
 import Slider from "./Components/Slider/Slider";
 import Model from "./Components/Model/Model";
 import './app.css'
+import Location from './Components/Location/Location';
 function App() {
   return (
     <div>
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div className="model-container-main">
         <Model/>
+      </div>
+      <div className="location-container-main">
+        <Location/>
       </div>
     </div>
   );

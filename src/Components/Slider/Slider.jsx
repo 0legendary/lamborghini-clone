@@ -95,7 +95,7 @@ function Slider() {
                                         <div className='bi bi-hexagon hexagon-ctrl'></div>
                                         <div className='bi bi-hexagon-fill hexagon-ctrl'></div>
                                         <div className='bi bi-chevron-left arrow-ctrl'></div>
-                                    </button>
+                                    </button>   
                                     <button className={`icon-ctrl ${isBorderVisibleLeft ? 'with-border' : ''}`} onClick={handlePrevSlide} onBlur={handleBlur}>
                                         <div className='bi bi-hexagon hexagon-ctrl'></div>
                                         <div className='bi bi-hexagon-fill hexagon-ctrl'></div>
