@@ -3,7 +3,8 @@
 .model-container-main, 
 .location-container-main,
 .news-container-main,
-.footer-container-main
+.footer-container-main,
+.sticky-container-main
 {
     width: 100%;
     max-width: unset;

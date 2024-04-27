@@ -1,0 +1,22 @@
+.sticky-container {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0rem;
+    color: #ffffff;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0; 
+    z-index: 1000;
+}
+
+.sticky-note {
+    max-width: 98%;
+    text-align: center;
+}
+
+.sticky-container .sticky-note p {
+    margin-bottom: 0rem;
+}

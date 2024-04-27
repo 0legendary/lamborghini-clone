@@ -9,6 +9,7 @@ import './app.css'
 import Location from './Components/Location/Location';
 import News from './Components/News/News';
 import Footer from './Components/Footer/Footer';
+import Sticky from './Components/Sticky/Sticky';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
       <div className="footer-container-main">
         <Footer/>
       </div>
+      <div className="sticky-container-main">
+        <Sticky/>
+      </div>
+      
     </div>
   );
 }
