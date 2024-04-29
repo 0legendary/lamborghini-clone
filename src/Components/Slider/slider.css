@@ -1,7 +1,6 @@
 .slider-container {
   position: relative;
   background-color: #202020;
-  line-height: 0;
   white-space: nowrap;
   -webkit-transition: -webkit-transform 1s cubic-bezier(0.13, 0.99, 0.18, 0.99);
   transition: transform 1s cubic-bezier(0.13, 0.99, 0.18, 0.99);
@@ -87,23 +86,17 @@
   display: flex;
   padding-left: 10.7rem;
   text-transform: uppercase;
-  top: 68%;
-  left: 50%;
+  top: 52%;
+  left: 47%;
   transform: translate(-50%, -50%);
   /* text-align: center; */
   z-index: 1;
 }
 
 .ctrl-container {
-  position: absolute;
-  top: -24rem;
-  left: 13.3%;
-  transform: translate(-50%, 0%);
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .ctrl-container .ctrl-btns {
@@ -205,6 +198,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
