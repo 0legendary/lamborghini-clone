@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.4d96706a.css",
-    "main.js": "./static/js/main.a0717901.js",
+    "main.js": "./static/js/main.c62b3b97.js",
     "static/media/hero_desk.jpeg": "./static/media/hero_desk.3542f3f6d4098c0507b9.jpeg",
     "static/media/sc63_imola_cover.png": "./static/media/sc63_imola_cover.e66c68f645b2902b2f06.png",
     "static/media/urus_s_family_chooser.jpg": "./static/media/urus_s_family_chooser.cd9cad7cafed8f7be74f.jpg",
@@ -17,10 +17,10 @@
     "static/media/logo_header_01.svg": "./static/media/logo_header_01.27eb76e2c982c9e93c39e65e990beab0.svg",
     "index.html": "./index.html",
     "main.4d96706a.css.map": "./static/css/main.4d96706a.css.map",
-    "main.a0717901.js.map": "./static/js/main.a0717901.js.map"
+    "main.c62b3b97.js.map": "./static/js/main.c62b3b97.js.map"
   },
   "entrypoints": [
     "static/css/main.4d96706a.css",
-    "static/js/main.a0717901.js"
+    "static/js/main.c62b3b97.js"
   ]
 }
