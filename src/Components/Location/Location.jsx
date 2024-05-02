@@ -15,7 +15,7 @@ function Location() {
   return (
     <div className='location-container'>
       <div className='bg-image'>
-        <img src={img} alt="" />
+        <img src={img} alt="Lamborghini" />
       </div>
       <div className='text-container'>
         <div className='text1'>
@@ -32,11 +32,11 @@ function Location() {
               <div className='bi bi-hexagon-fill hexagon-ctrl'></div>
               <div className='bi bi-chevron-right arrow-icon'></div>
             </button>
-            </div>
           </div>
         </div>
       </div>
-      )
+    </div>
+  )
 }
 
-      export default Location
+export default Location

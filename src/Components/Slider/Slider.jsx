@@ -54,6 +54,7 @@ function Slider() {
             // Cleanup the typed.js instance when the component unmounts
             typedRef.current.destroy();
         };
+        // eslint-disable-next-line
     }, [currentSlide]);
 
 
@@ -104,7 +105,7 @@ function Slider() {
                                 </div>
                             </div>
                             <div className='Model'>
-                                <div>
+                                <div style={{ height: '180px' }}>
                                     <span className='reveal-text typed-text'></span>
                                 </div>
 
@@ -132,21 +133,21 @@ function Slider() {
                         <div className='slider-item'>
                             <div className='skew'>
                                 <div className='slide-image shade'>
-                                    <img src={images[currentSlide].image} alt='Image 1'></img>
+                                    <img src={images[currentSlide].image} alt='Car 1'></img>
                                 </div>
                             </div>
                         </div>
                         <div className='slider-item'>
                             <div className='skew'>
                                 <div className='slide-image shade'>
-                                    <img src={images[currentSlide === 2 ? 0 : currentSlide + 1].image} alt='Image 2'></img>
+                                    <img src={images[currentSlide === 2 ? 0 : currentSlide + 1].image} alt='Car 2'></img>
                                 </div>
                             </div>
                         </div>
                         <div className='slider-item active-slide'>
                             <div className='skew'>
                                 <div className='slide-image'>
-                                    <img src={images[currentSlide === 0 ? 2 : currentSlide - 1].image} alt='Image 3'></img>
+                                    <img src={images[currentSlide === 0 ? 2 : currentSlide - 1].image} alt='Car 3'></img>
                                 </div>
                             </div>
                         </div>

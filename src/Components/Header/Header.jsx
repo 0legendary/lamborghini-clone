@@ -11,58 +11,58 @@ function Header() {
         </div>
         <ul className='list-div d-none d-md-flex'>
           <li className='list1'>
-            <a href="#"><span>MODELS</span></a>
+            <a href="/"><span>MODELS</span></a>
             <div className="list-dropdown">
               <ul >
-                <li><a href="#">REVUELTO</a></li>
-                <li><a href="#">HURACÁN</a></li>
-                <li><a href="#">URUS</a></li>
-                <li><a href="#">LIMITED SERIES</a></li>
-                <li><a href="#">CONCEPT</a></li>
+                <li><a href="/">REVUELTO</a></li>
+                <li><a href="/">HURACÁN</a></li>
+                <li><a href="/">URUS</a></li>
+                <li><a href="/">LIMITED SERIES</a></li>
+                <li><a href="/">CONCEPT</a></li>
               </ul>
             </div>
           </li>
           <li className='list2'>
-            <a href=""><span>BEYOND</span></a>
+            <a href='/'><span>BEYOND</span></a>
           </li>
           <li className='list3'>
-            <a href=""><span>OWNERSHIP</span></a>
+            <a href="/"><span>OWNERSHIP</span></a>
             <div className="list-dropdown">
               <ul>
-                <li><a href="#">CONNECTIVITY</a></li>
-                <li><a href="#">CUSTOMER APP</a></li>
-                <li><a href="#">MOBILITY PROGRAM</a></li>
-                <li><a href="#">CLASSICS</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">RECALL CAMPAIGN</a></li>
+                <li><a href="/">CONNECTIVITY</a></li>
+                <li><a href="/">CUSTOMER APP</a></li>
+                <li><a href="/">MOBILITY PROGRAM</a></li>
+                <li><a href="/">CLASSICS</a></li>
+                <li><a href="/">SERVICE</a></li>
+                <li><a href="/">RECALL CAMPAIGN</a></li>
               </ul>
             </div>
           </li>
           <li className='list4'>
-            <a href=""><span>MOTORSPORT</span></a>
+            <a href="/"><span>MOTORSPORT</span></a>
             <div className="list-dropdown">
               <ul>
-                <li><a href="#">HYPERCAR/GTP</a></li>
-                <li><a href="#">SUPER TROFEO</a></li>
-                <li><a href="#">GT3</a></li>
-                <li><a href="#">MOTORSPORT MODELS</a></li>
-                <li><a href="#">DRIVERS</a></li>
-                <li><a href="#">MOTORSPORT NEWS</a></li>
-                <li><a href="#">EXPERIENCE</a></li>
-                <li><a href="#">ESPORTS</a></li>
+                <li><a href="/">HYPERCAR/GTP</a></li>
+                <li><a href="/">SUPER TROFEO</a></li>
+                <li><a href="/">GT3</a></li>
+                <li><a href="/">MOTORSPORT MODELS</a></li>
+                <li><a href="/">DRIVERS</a></li>
+                <li><a href="/">MOTORSPORT NEWS</a></li>
+                <li><a href="/">EXPERIENCE</a></li>
+                <li><a href="/">ESPORTS</a></li>
               </ul>
             </div>
           </li>
         </ul>
         <ul className='list-div list-div-right d-none d-md-flex right'>
           <li className='list1'>
-            <a href=""><span>DEALERSHIPS</span></a>
+            <a href="/"><span>DEALERSHIPS</span></a>
           </li>
           <li className='list2'>
-            <a href=""><span>MUSEUM</span></a>
+            <a href="/"><span>MUSEUM</span></a>
           </li>
           <li className='list3'>
-            <a href=""><span>STORE</span></a>
+            <a href="/"><span>STORE</span></a>
           </li>
         </ul>
         <div className='header-button d-flex right align-items-center'>

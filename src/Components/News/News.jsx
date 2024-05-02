@@ -17,7 +17,7 @@ function News() {
                     <h2>Lamborghini World</h2>
                 </div>
                 <div className='cover-img'>
-                    <img src={ConverImg} alt="" />
+                    <img src={ConverImg} alt="coverImg" />
                 </div>
                 <div className='date-info'>
                     <div className='date'>

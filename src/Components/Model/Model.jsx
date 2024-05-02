@@ -38,7 +38,7 @@ function Model() {
         setDescriptionChanged(true)
     }
 
-    
+
 
 
 
@@ -69,11 +69,10 @@ function Model() {
 
 
 
-
     return (
         <div className='model-container'>
             <div className='image-container'>
-                <img src={slide[currentSlide ? 1 : 0].image} alt="Lamborghini" />
+                <img src={slide[currentSlide ? 1 : 0].image} alt={`Car${currentSlide}`} />
             </div>
             <div className='text-container'>
                 <div className='mini-heading'><span className='heading-text'></span></div>
