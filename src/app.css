@@ -6,6 +6,7 @@
 .footer-container-main,
 .sticky-container-main
 {
+  position: relative;
     width: 100%;
     max-width: unset;
     box-sizing: border-box;
