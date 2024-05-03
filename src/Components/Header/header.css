@@ -147,10 +147,11 @@
     background-color: #181818;
     overflow: hidden;
     max-height: 0;
-    transition: max-height 1s ease; /* Adjusted transition duration */
+    transition: max-height 1s ease;
+    /* Adjusted transition duration */
     z-index: -1;
     padding-bottom: 23px;
-    
+
 }
 
 .list-div li:hover .list-dropdown {
@@ -158,15 +159,17 @@
     transition: max-height 1s ease;
 }
 
-.list1 div{
+.list1 div {
     left: -163px;
     padding-left: 9.5rem;
 }
-.list3 div{
+
+.list3 div {
     left: -343px;
     padding-left: 20.5rem;
 }
-.list4 div{
+
+.list4 div {
     left: -460px;
     padding-left: 27.9rem;
 }
@@ -198,4 +201,79 @@
 
 .list-dropdown li a:hover {
     color: white;
+}
+
+
+@media (max-width: 1365px) {
+
+    .list-div li a,
+    .list-dropdown li a {
+        font-size: 0.8rem;
+    }
+
+    .header-div {
+        padding: 1.6rem 1.4rem;
+        justify-content: space-between;
+    }
+
+    .header-button {
+        margin-left: 0.2rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    .list-div {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .list-div {
+        display: none;
+    }
+    .header-div{
+        padding: 3.6rem 1.4rem;
+
+    }
+    .header-button .message{
+        font-size: 40px;
+        margin-left: 1.8rem;
+    }
+
+    .header-button .search{
+        font-size: 40px;
+        margin-left: 1.8rem;
+    }
+
+    .header-button .list{
+        font-size: 40px;
+        margin-left: 1.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .list-div {
+        display: none;
+    }
+    .header-div{
+        padding: 4.6rem 4.4rem;
+
+    }
+    .logo-header{
+        width: 80px;
+    }
+    .header-button .message{
+        font-size: 40px;
+        margin-left: 1.8rem;
+    }
+
+    .header-button .search{
+        font-size: 40px;
+        margin-left: 1.8rem;
+    }
+
+    .header-button .list{
+        font-size: 40px;
+        margin-left: 1.8rem;
+    }
 }

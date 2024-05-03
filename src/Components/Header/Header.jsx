@@ -5,11 +5,12 @@ function Header() {
 
   return (
     <header className='main-header'>
+      
       <div className='header-div align-items-center'>
-        <div className='logo-div'>
+        <div className='logo-div col-auto'>
           <img className='logo-header align-self-start' src={Logo} alt="Logo" />
         </div>
-        <ul className='list-div d-none d-md-flex'>
+        <ul className='list-div'>
           <li className='list1'>
             <a href="/"><span>MODELS</span></a>
             <div className="list-dropdown">
@@ -54,7 +55,7 @@ function Header() {
             </div>
           </li>
         </ul>
-        <ul className='list-div list-div-right d-none d-md-flex right'>
+        <ul className='list-div list-div-right right'>
           <li className='list1'>
             <a href="/"><span>DEALERSHIPS</span></a>
           </li>
@@ -65,7 +66,7 @@ function Header() {
             <a href="/"><span>STORE</span></a>
           </li>
         </ul>
-        <div className='header-button d-flex right align-items-center'>
+        <div className='header-button d-flex right align-items-center col-auto'>
           <button><i class="bi bi-chat-left message"></i></button>
           <button><i class="bi bi-search search"></i></button>
           <button><i class="bi bi-list list"></i></button>
