@@ -20,3 +20,10 @@
 .sticky-container .sticky-note p {
     margin-bottom: 0rem;
 }
+
+@media (max-width: 1024px) {
+    .sticky-container .sticky-note p {
+        font-size: 12px;
+    }
+    
+}

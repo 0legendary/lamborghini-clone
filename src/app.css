@@ -11,5 +11,6 @@
     max-width: unset;
     box-sizing: border-box;
     height: auto;
+    overflow: hidden;
   }
 

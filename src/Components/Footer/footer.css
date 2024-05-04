@@ -14,7 +14,11 @@
     justify-content: space-between;
 }
 
-.footer .footer-menu .menu {
+.footer .footer-menu .menu-sm {
+    display: none;
+}
+
+.footer .footer-menu .menu-lg {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -76,6 +80,9 @@
     /* Inherit line height from parent */
 }
 
+.footer .social-container {
+    display: none;
+}
 
 .footer .copyright-details {
     width: 100%;
@@ -87,4 +94,58 @@
     padding-right: 0.3rem;
     font-weight: 300;
     margin-bottom: 0;
+}
+
+
+@media (max-width: 1599px) {
+    .footer-container .footer {
+        padding: 4rem 2rem 4rem 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-container .footer {
+        padding: 4rem 2rem 6rem 2rem;
+    }
+
+    .footer-container .footer-menu .social-icons {
+        display: none;
+    }
+
+    .footer-container .footer-menu .menu-lg {
+        display: none;
+    }
+
+    .footer .footer-menu .menu-sm {
+        display: block;
+        width: 50%;
+    }
+
+    .footer .footer-menu {
+        justify-content: flex-start;
+
+    }
+
+    .footer-base-container {
+        max-width: 675px;
+    }
+
+    .footer .social-container {
+        display: flex;
+
+    }
+
+    .footer .social-container .social-icons i {
+        padding-right: 1rem;
+        font-size: 2rem;
+        margin: 0 3rem 0 0;
+    }
+}
+
+@media (max-width: 412px) {
+    .footer .social-container .social-icons i {
+        padding-right: 1rem;
+        font-size: 2rem;
+        margin: 0 0 0 0;
+    }
 }
