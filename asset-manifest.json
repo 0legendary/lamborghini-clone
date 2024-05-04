@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.4d96706a.css",
-    "main.js": "./static/js/main.c62b3b97.js",
+    "main.css": "./static/css/main.c9e86d8e.css",
+    "main.js": "./static/js/main.ed02b8fc.js",
     "static/media/hero_desk.jpeg": "./static/media/hero_desk.3542f3f6d4098c0507b9.jpeg",
+    "static/media/Urus_m.png": "./static/media/Urus_m.6956b0f4c32d1bd9ffa5.png",
     "static/media/sc63_imola_cover.png": "./static/media/sc63_imola_cover.e66c68f645b2902b2f06.png",
+    "static/media/revuelto_m.png": "./static/media/revuelto_m.8910b02950db9e83b7e9.png",
+    "static/media/huracan_sterrato_m.png": "./static/media/huracan_sterrato_m.a59d31b75ef50c3c8374.png",
     "static/media/urus_s_family_chooser.jpg": "./static/media/urus_s_family_chooser.cd9cad7cafed8f7be74f.jpg",
     "static/media/533702.jpg": "./static/media/533702.67c1027ae30de75876d0.jpg",
     "static/media/revuelto.jpg": "./static/media/revuelto.c0efae4539b1bc621c14.jpg",
@@ -16,11 +19,11 @@
     "static/media/urus_s_home.jpg": "./static/media/urus_s_home.63ca91576acc06036171.jpg",
     "static/media/logo_header_01.svg": "./static/media/logo_header_01.27eb76e2c982c9e93c39e65e990beab0.svg",
     "index.html": "./index.html",
-    "main.4d96706a.css.map": "./static/css/main.4d96706a.css.map",
-    "main.c62b3b97.js.map": "./static/js/main.c62b3b97.js.map"
+    "main.c9e86d8e.css.map": "./static/css/main.c9e86d8e.css.map",
+    "main.ed02b8fc.js.map": "./static/js/main.ed02b8fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d96706a.css",
-    "static/js/main.c62b3b97.js"
+    "static/css/main.c9e86d8e.css",
+    "static/js/main.ed02b8fc.js"
   ]
 }
