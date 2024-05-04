@@ -361,11 +361,10 @@
 
 .mobile-container .explore-model {
   background-color: white;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 5rem;
   font-weight: 500;
-  
   padding: 12px 30px;
   border: 1px solid #cbcbcb;
   border-right-color: #cbcbcb;
@@ -395,6 +394,7 @@
   .mobile-container .explore-model{
     width: 95%;
     padding: 12px 37%;
+    
     white-space: nowrap;
     display: flex;
     justify-content: center;

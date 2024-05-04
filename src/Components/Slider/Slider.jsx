@@ -130,7 +130,7 @@ function Slider() {
                         <img className='images'
                             src={image4}
                             alt='Lamborghini'
-                        />4
+                        />
                     </div>
 
                     {/* Model name and description */}
