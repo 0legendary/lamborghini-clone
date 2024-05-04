@@ -1,7 +1,6 @@
 .location-container {
     position: relative;
-    /* Position relative for absolute positioning of text-container */
-    height: 630px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +18,7 @@
     object-fit: cover;
     object-position: center;
     width: 100%;
-    height: 95%;
+    height: 100%;
 }
 
 .location-container .bg-image::after {
@@ -28,7 +27,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 95%;
+    height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
     z-index: 2;
     pointer-events: none;
@@ -37,11 +36,8 @@
 .location-container .text-container {
     position: absolute;
     top: 50%;
-    /* Center vertically */
     left: 10rem;
-    /* Add left padding */
     transform: translateY(-50%);
-    /* Adjust vertically to center */
     color: white;
     z-index: 5;
     text-transform: uppercase;
@@ -94,16 +90,16 @@
 @media (max-width: 1024px) {
     .location-container .bg-image img {
         width: 100%;
-        height: 97%;
+        height: 100%;
     }
 
     .location-container .bg-image::after {
         width: 100%;
-        height: 97%;
+        height: 100%;
     }
 
     .location-container .bg-image {
-        height: 77%;
+        height: 100%;
     }
 
     .location-container .text-container {
@@ -127,7 +123,7 @@
 
 @media (max-width: 767px) {
     .location-container .bg-image {
-        height: 77%;
+        height: 100%;
     }
 
     .location-container .text-container {

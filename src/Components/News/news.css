@@ -76,6 +76,10 @@
     width: 100%;
 }
 
+.news-content .about-model-sm {
+    display: none;
+}
+
 .news-content .about-model .model-container {
     display: flex;
     justify-content: space-between;
@@ -86,6 +90,7 @@
 .news-content .about-model .text-description {
     text-align: left;
     flex: 1;
+    margin-top: 2rem;
 }
 
 .news-content .text-description p {
@@ -189,4 +194,80 @@
 .news-content .discover-btn:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 1600px) {
+    .news-container {
+        padding: 7rem 8.3%;
+    }
+}
+
+
+@media (max-width: 1365px) {
+    .news-content .sub-heading h2 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .news-container {
+        padding: 4rem 1.9%;
+    }
+
+    .news-content .sub-heading h2 {
+        font-size: 3.6rem;
+        letter-spacing: -0.300rem;
+    }
+
+    .news-content .about-model {
+        display: none;
+    }
+
+    .news-content .date-info .model-info {
+        display: none;
+    }
+
+    .news-content .about-model-sm {
+        display: flex;
+        font-size: 25px;
+        font-weight: 700;
+        color: black;
+        text-transform: uppercase;
+    }
+    .news-content .models-text-container {
+        flex: 1 1;
+        padding: 0 0;
+    }
+    .news-content .date-info {
+        padding-top: 1.3rem;
+    }
+    .news-content .diff-models {
+        display: block;
+    }
+    .news-content .date-info .date p{
+        margin-bottom: 5px;
+    }
+    .news-content .diff-container .diff-models .models-text-container .text p {
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .news-content .model-info {
+        display: none;
+    }
+    .news-content .btn-read-more {
+        display: none;
+    }
+
+    .news-content .about-model .text-description{
+        margin-top: 0;
+    }
+}
+
+
+@media (max-width: 767px){
+    .news-content .discover-btn {
+        width: 100%;
+    }
 }

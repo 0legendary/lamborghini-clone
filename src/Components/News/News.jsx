@@ -14,7 +14,7 @@ function News() {
             <div className='news-content'>
                 <div className='sub-heading' >
                     <h3>News</h3>
-                    <h2 style={{fontSize: '1rem'}}>Lamborghini World</h2>
+                    <h2>Lamborghini World</h2>
                 </div>
                 <div className='cover-img'>
                     <img src={ConverImg} alt="coverImg" />
@@ -40,6 +40,9 @@ function News() {
                         <p>World premiere of the Lamborghini Urus SE: the first PHEV (Plug-in Hybrid Electric Vehicle) Super SUV</p>
                     </div>
                 </div>
+                <div className='about-model-sm'>
+                    <p>World premiere of the Lamborghini Urus SE: the first PHEV (Plug-in Hybrid Electric Vehicle) Super SUV</p>
+                </div>
                 <div className='diff-container'>
                     {Models.map((data) => (
                         <div className='diff-models'>
@@ -53,7 +56,7 @@ function News() {
                                 <div className='model-info'>
                                     <p>{data.tag}</p>
                                 </div>
-                                <div className='text-description' style={{ marginTop: '2rem' }}>
+                                <div className='text-description'>
                                     <p>{data.des}</p>
                                 </div>
                                 <button className='btn-read-more'>
