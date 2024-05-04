@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
+
 import Header from "./Components/Header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -10,33 +12,48 @@ import Location from './Components/Location/Location';
 import News from './Components/News/News';
 import Footer from './Components/Footer/Footer';
 import Sticky from './Components/Sticky/Sticky';
-
 function App() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024); // Update isMobile state based on screen width
+    };
+
+    handleResize(); // Initial check on component mount
+    window.addEventListener('resize', handleResize); // Add event listener for window resize
+
+    return () => {
+      window.removeEventListener('resize', handleResize); // Cleanup on component unmount
+    };
+  }, []);
   return (
     <div>
-      <Header/> 
+      <Header />
       <div className="banner-container-main">
-        <Banner/>
+        <Banner />
       </div>
       <div className="slider-container-main">
-        <Slider/>
+        <Slider />
       </div>
-      <div className="model-container-main">
-        <Model/>
-      </div>
+      {!isMobile &&(
+        <div className="model-container-main">
+          <Model />
+        </div>
+      )}
       <div className="location-container-main">
-        <Location/>
+        <Location />
       </div>
       <div className="news-container-main">
-        <News/>
+        <News />
       </div>
       <div className="footer-container-main">
-        <Footer/>
+        <Footer />
       </div>
       <div className="sticky-container-main">
-        <Sticky/>
+        <Sticky />
       </div>
-      
+
     </div>
   );
 }

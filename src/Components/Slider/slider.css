@@ -284,3 +284,119 @@
   font-size: 1.1rem;
   align-self: flex-start;
 }
+
+@media (max-width : 1365px) {
+  .content {
+    left: 42.7%;
+  }
+}
+
+/* Mobile devices */
+.mobile-container {
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  overflow: hidden;
+}
+
+.image-slide {
+  padding: 0rem;
+}
+
+.model-info {
+  padding: 0rem;
+}
+
+
+.image-slide::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar */
+}
+
+.mobile-container .models-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.056rem;
+  text-align: left;
+  color: #202020;
+  margin: 4rem 4px 1rem 20px;
+}
+
+.mobile-container .model-info {
+  padding-left: 1rem;
+  padding-top: 2rem;
+
+}
+
+.mobile-container .model-info h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.04rem;
+  color: #202020;
+  text-transform: uppercase;
+}
+
+.mobile-container .model-info h5 {
+  font-weight: 600;
+}
+
+.image-slide .images {
+  position: relative;
+  text-align: center;
+  width: 54%;
+  height: 51vh;
+  min-height: 26rem;
+  overflow: hidden;
+  object-fit: contain;
+  background-image: linear-gradient(to top, #fff, #c5c5c5, #fff);
+  margin-right: 0.5px;
+  margin-left: 0.5px;
+}
+
+.mobile-container .explore-model {
+  background-color: white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-weight: 500;
+  
+  padding: 12px 30px;
+  border: 1px solid #cbcbcb;
+  border-right-color: #cbcbcb;
+  border-bottom-color: #cbcbcb;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  text-transform: uppercase;
+}
+
+.mobile-container .explore-model:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .image-slide .images {
+    width: 76%;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-slide .images {
+    width: 80% !important;
+    right: 0px !important;
+    bottom: auto !important;
+    left: auto !important;
+  }
+  .mobile-container .explore-model{
+    width: 95%;
+    padding: 12px 37%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+  }
+}

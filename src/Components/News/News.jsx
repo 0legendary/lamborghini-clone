@@ -12,9 +12,9 @@ function News() {
     return (
         <div className='news-container'>
             <div className='news-content'>
-                <div className='sub-heading'>
+                <div className='sub-heading' >
                     <h3>News</h3>
-                    <h2>Lamborghini World</h2>
+                    <h2 style={{fontSize: '1rem'}}>Lamborghini World</h2>
                 </div>
                 <div className='cover-img'>
                     <img src={ConverImg} alt="coverImg" />
