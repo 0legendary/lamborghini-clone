@@ -1,11 +1,11 @@
 import React from 'react';
 import '../Banner/banner.css';
-import img from '../../Assets/hero_desk.jpeg'
+import img from '../../Assets/hero_desk.avif'
 function Banner() {
     return (
         <div className='banner'>
-            <div className='banner-img'>
-                <img src={img} alt="car" />
+             <div className='banner-img-wrapper'>
+                <img src={img} alt="car" className='banner-img' />
             </div>
             <div className='banner-text'>
                 <div className='banner-heading'>

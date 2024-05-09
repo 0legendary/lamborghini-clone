@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import '../Slider/slider.css';
 import Typed from 'typed.js';
 
-import image1 from '../../Assets/revuelto.jpg'
-import image2 from '../../Assets/urus_s_family_chooser.jpg'
-import image3 from '../../Assets/family_chooser_sterrato.jpg'
-import image4 from '../../Assets/Urus_m.png'
-import image5 from '../../Assets/huracan_sterrato_m.png'
-import image6 from '../../Assets/revuelto_m.png'
+import image1 from '../../Assets/revuelto.avif'
+import image2 from '../../Assets/urus_s_family_chooser.avif'
+import image3 from '../../Assets/family_chooser_sterrato.avif'
+import image4 from '../../Assets/Urus_m.avif'
+import image5 from '../../Assets/huracan_sterrato_m.avif'
+import image6 from '../../Assets/revuelto_m.avif'
 
 
 function Slider() {
@@ -118,7 +118,7 @@ function Slider() {
                     </div>
 
                     {/* Slide for images */}
-                    <div className="image-slide" style={{ overflowX: 'scroll', whiteSpace: 'nowrap' }}>
+                    <div className="image-slide">
                         <img className='images'
                             src={image5}
                             alt='Lamborghini'
@@ -172,11 +172,11 @@ function Slider() {
 
                                 <button className="extra-details" onClick={handleMoreDetails} onBlur={handleBlur}>
                                     <div className={`more-details ${isMoreDetails ? 'border-more-details' : ''}`}>
-                                        <button className='icon-ctrl'>
+                                        <div className='icon-ctrl'>
                                             <div className='bi bi-hexagon hexagon-ctrl'></div>
                                             <div className='bi bi-hexagon-fill hexagon-ctrl'></div>
                                             <div className='bi bi-plus-lg arrow-ctrl'></div>
-                                        </button>
+                                        </div>
                                         <div className='text-more'>
                                             <h5 className='text'>Explore the</h5>
                                             <h5 className='text'>model</h5>

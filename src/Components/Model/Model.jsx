@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import '../Model/Model.css';
 import Typed from 'typed.js';
-import Revuelto from '../../Assets/revuelto_home.jpg'
-import Urus from '../../Assets/urus_s_home.jpg'
+import Revuelto from '../../Assets/revuelto_home.avif'
+import Urus from '../../Assets/urus_s_home.avif'
 
 
 

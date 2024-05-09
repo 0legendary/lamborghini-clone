@@ -67,9 +67,9 @@ function Header() {
           </li>
         </ul>
         <div className='header-button d-flex right align-items-center col-auto'>
-          <button><i class="bi bi-chat-left message"></i></button>
-          <button><i class="bi bi-search search"></i></button>
-          <button><i class="bi bi-list list"></i></button>
+          <button><i className="bi bi-chat-left message"></i></button>
+          <button><i className="bi bi-search search"></i></button>
+          <button><i className="bi bi-list list"></i></button>
         </div>
       </div>
     </header>

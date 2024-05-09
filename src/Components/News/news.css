@@ -1,9 +1,4 @@
-.news-container {
-    display: flex;
-    justify-content: center;
-    padding: 7rem 16.8%;
-}
-
+.news-container{display:flex;justify-content:center;padding:7rem 16.8%}
 .news-content {
     width: 100%;
 }

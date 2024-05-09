@@ -30,6 +30,9 @@ function App() {
   return (
     <div>
       <Header />
+      <div className="sticky-container-main">
+        <Sticky />
+      </div>
       <div className="banner-container-main">
         <Banner />
       </div>
@@ -50,9 +53,7 @@ function App() {
       <div className="footer-container-main">
         <Footer />
       </div>
-      <div className="sticky-container-main">
-        <Sticky />
-      </div>
+      
 
     </div>
   );

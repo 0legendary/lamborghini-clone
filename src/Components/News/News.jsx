@@ -1,8 +1,8 @@
 import React from 'react'
 import '../News/news.css';
-import ConverImg from '../../Assets/cover.png'
-import urus from '../../Assets/urus_se_cover.jpg'
-import imola from '../../Assets/sc63_imola_cover.png'
+import ConverImg from '../../Assets/cover.avif'
+import urus from '../../Assets/urus_se_cover.avif'
+import imola from '../../Assets/sc63_imola_cover.avif'
 
 function News() {
     const Models = [

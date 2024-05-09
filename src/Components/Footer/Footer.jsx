@@ -52,7 +52,7 @@ function Footer() {
                     </div>
                     <div className='social-icons'>
                         {icons.map((icon, index) => (
-                            <i key={index} class={`bi ${icon}`}></i>
+                            <i key={index} className={`bi ${icon}`}></i>
                         ))}
                     </div>
                 </div>
@@ -74,7 +74,7 @@ function Footer() {
                     <div className='social-container'>
                         <div className='social-icons'>
                             {icons.map((icon, index) => (
-                                <i key={index} class={`bi ${icon}`}></i>
+                                <i key={index} className={`bi ${icon}`}></i>
                             ))}
                         </div>
                     </div>

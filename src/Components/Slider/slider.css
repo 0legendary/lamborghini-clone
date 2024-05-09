@@ -1,10 +1,5 @@
 .slider-container {
-  position: relative;
-  background-color: #202020;
-  white-space: nowrap;
-  -webkit-transition: -webkit-transform 1s cubic-bezier(0.13, 0.99, 0.18, 0.99);
-  transition: transform 1s cubic-bezier(0.13, 0.99, 0.18, 0.99);
-
+  position: relative;background-color: #202020;white-space: nowrap;transition: transform 1s cubic-bezier(0.13, 0.99, 0.18, 0.99);
 }
 
 .slider-container .inner-container {
@@ -300,6 +295,8 @@
 
 .image-slide {
   padding: 0rem;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 .model-info {
@@ -309,7 +306,6 @@
 
 .image-slide::-webkit-scrollbar {
   display: none;
-  /* Hide scrollbar */
 }
 
 .mobile-container .models-title {

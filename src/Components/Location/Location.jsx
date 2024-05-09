@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../Location/location.css';
-import img from '../../Assets/533702.jpg'
+import img from '../../Assets/533702.avif'
 function Location() {
   const [isBorderVisible, setIsBorderVisible] = useState(false);
 
